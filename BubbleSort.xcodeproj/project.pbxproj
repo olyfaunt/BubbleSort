@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		99D3D1471A0F014E0026DCA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D3D1461A0F014E0026DCA5 /* main.m */; };
+		99D3D14F1A0F018C0026DCA5 /* NSArray+LHLBubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D3D14E1A0F018C0026DCA5 /* NSArray+LHLBubbleSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		99D3D1431A0F014E0026DCA5 /* BubbleSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BubbleSort; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D3D1461A0F014E0026DCA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99D3D14D1A0F018C0026DCA5 /* NSArray+LHLBubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+LHLBubbleSort.h"; path = "../NSArray+LHLBubbleSort.h"; sourceTree = "<group>"; };
+		99D3D14E1A0F018C0026DCA5 /* NSArray+LHLBubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LHLBubbleSort.m"; path = "../NSArray+LHLBubbleSort.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		99D3D1451A0F014E0026DCA5 /* BubbleSort */ = {
 			isa = PBXGroup;
 			children = (
+				99D3D14D1A0F018C0026DCA5 /* NSArray+LHLBubbleSort.h */,
+				99D3D14E1A0F018C0026DCA5 /* NSArray+LHLBubbleSort.m */,
 				99D3D1461A0F014E0026DCA5 /* main.m */,
 			);
 			path = BubbleSort;
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99D3D1471A0F014E0026DCA5 /* main.m in Sources */,
+				99D3D14F1A0F018C0026DCA5 /* NSArray+LHLBubbleSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
